@@ -1,0 +1,1734 @@
+<!DOCTYPE html> 
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; 
+charset=UTF-8"> 
+; 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>HTML QUIZ</title> 
+<style> 
+#Email,#Password,#Username{ 
+font-size: 20px; 
+border: 10px 40px 10px 40px; 
+border-radius: 30px; 
+} 
+</style> 
+</head> 
+<body background="./ϐile/quiz .jpg"> 
+<br><br><br><br><br><br><br><br><br> 
+<div> 
+<form action="./ϐile/mainactual .html" align="center"> 
+<leval for="Usrename" title="sdas"><span style="color:royalblue">Usrename</span></leval> 
+<input type="text" name="smae" id="Username" required=""> 
+<br><br> 
+<leval for="password"><span style="color:royalblue">Password</span></leval> 
+<input type="password" name="smae" id="Password" required=""> 
+<br><br> 
+<leval for="email"><span style="color:royalblue">Email</span></leval> 
+<input type="email" name="smae" id="Email" required=""> 
+<br><br> 
+<input type="submit" value="login" id="si"> 
+</form> 
+</div> 
+< 
+ </body></html>
+ File folder
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=>, initial-scale=1.0"> 
+<title>Document</title> 
+<style> 
+#SEV{ 
+background-color: burlywood; 
+padding: 10px 50px 50px 50px; 
+border-radius: 50px; 
+box-shadow: 10px 15px 5px; 
+} 
+#dp{ 
+background-color:burlywood; 
+padding: 10px 50px 50px 50px; 
+border-radius: 50px; 
+box-shadow: 10px 15px 5px; 
+} 
+</style> 
+</head> 
+<body> 
+<h1 id="SEV"> SOME IMPORTANT PART OF THE C LANGUAGE AND RELATED THE 
+QUIZ</h1> 
+<div id="dp"> 
+<ol> 
+<li><a href="./INTRODUCTION.HTML" title="part1"> C INTRODUCTION</a></li><br><br> 
+<li><a href="./DecisionControlInstruction.html" title="part2">DECISION CONTROL 
+INSTRUCTION</a></li><br><br> 
+<li><a href="./LoopsControl.html" title="part3">LOOP CONTROL INSTRUCTION 
+</a></li><br><br> 
+<li><a href="./operators.html" title="part">OPERATORS</a></li><br><br> 
+<li><a href="./function.html" title="part">FUNCTIONS</a></li><br><br> 
+</ol> 
+</div> 
+</body> 
+</html>
+1.Introduction
+!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>introduction of c language</title> 
+<STYLE> 
+#main{ 
+background-color: blanchedalmond; 
+padding: 10px 50px 50px 50px; 
+border-radius: 50px; 
+box-shadow: 10px 15px 5px 
+} 
+#a,#b,#c,#d,#e{ 
+color: royalblue; 
+} 
+#p1,#p2,#p3,#p4,#p5,#p6{ 
+background-color: darkgray; 
+border-radius: 10px; 
+padding: 10px,10px,10px,10px; 
+} 
+#ram{ 
+color: red; 
+font-size: large; 
+} 
+</STYLE> 
+</head> 
+<body> 
+<div id="main"> 
+<h1> C LANGUAGE INTRODUCTION</h1> 
+<P>C is a procedural programming language. It was initially 
+developed by Dennis Ritchie in the year 1972. It was mainly 
+developed as a system programming language to write an operating 
+system. The main features of C language include low-level access 
+to memory, a simple set of keywords, and clean style, these features make C 
+language suitable for system programmings like an operating system or compiler 
+development. 
+Many later languages have borrowed syntax/features directly or indirectly from 
+C language. Like syntax of Java, PHP, JavaScript, and many other languages 
+are mainly based on C language. C++ is nearly a superset of C 
+language (There are few programs that may compile in C, but not in C++).</P> 
+<h3>Beginning with C programming:</h3> 
+&nbsp; 
+<h1 id="I">1.Structure of a C program</h1> 
+<p>After the above discussion, we can formally assess the structure of a C program. By 
+structure, it is meant that any program can be written in this structure only. Writing a C program in any 
+other structure will hence lead to a Compilation Error. 
+The structure of a C program is as follows: 
+<h3>sructure of program C</h3> 
+<P> 
+#include<stdio.h>&nbsp;&nbsp; HEADER<BR> 
+main()&nbsp; &nbsp; MAIN()FUNCTION<BR> 
+{ 
+int a=10;&nbsp;&nbsp; VARIABLE DECLARATION<BR> 
+printf("%d",a);&nbsp;&nbsp; BODY<br> 
+return;&nbsp;&nbsp; RETURN<BR> 
+} 
+<P>The components of the above structure are:</P> 
+<STRONG id="a">1.Header Files Inclusion:</STRONG> The ϐirst and foremost component is 
+the inclusion of the Header ϐiles in a C program. 
+A header ϐile is a ϐile with extension .h which contains C function declarations and macro 
+deϐinitions to be shared between several source ϐiles 
+Some of C Header ϐiles: 
+stddef.h – Deϐines several useful types and macros. 
+stdint.h – Deϐines exact width integer types. 
+stdio.h – Deϐines core input and output functions 
+stdlib.h – Deϐines numeric conversion functions, pseudo-random network generator, memory
+allocation 
+string.h – Deϐines string handling functions 
+math.h – Deϐines common mathematical functions<BR> 
+<STRONG>Syntax to include a header ϐile in C:</STRONG> 
+<BR> 
+<div id="p1">#includ</div><BR><BR> 
+<STRONG id="b">2.Main() function Declaration:</STRONG> The next part of a C program is 
+to declare the main() function. The syntax to declare the 
+main function is:<BR> 
+<STRONG>Syntax to Declare main method:</STRONG><BR> 
+<div id="p6"> 
+int main() <BR> 
+{}<BR> 
+<br> 
+</div> 
+<strong id="c" >3.Variable Declaration:</strong> The next part of any C program is the 
+variable declaration. It refers to the variables that are to 
+be used in the function. Please note that in the C program, 
+no variable can be used without being declared. Also in a 
+C program, the variables are to be declared before any 
+operation in the function. 
+Example:<br> 
+<div id="p2"> 
+int main()<br> 
+{<br> 
+int a;<br> 
+.<br> 
+.<br> 
+</div> 
+<br> 
+<br> 
+<strong id="d" >4.Body:</strong> Body of a function in C program, refers to the operations 
+that are performed in the functions. It can be anything like 
+manipulations, searching, sorting, printing, etc.<br> 
+Example:<br> 
+<div id="p3"> 
+int main()<br> 
+{<br> 
+int a;<br> 
+printf("%d", a);<br> 
+.<br> 
+.<br> 
+</div><br><br> 
+<strong id="e">5.Return Statement:</strong> The last part in any C program is the 
+return statement. The return statement refers to the returning 
+of the values from a function. This return statement and return 
+value depend upon the return type of the function. For example, 
+if the return type is void, then there will be no return statement 
+. In any other case, there will be a return statement and the return 
+value will be of the type of the speciϐied return type.<br> 
+Example:<br> 
+<div id="p4"> 
+int main()<br> 
+{<br> 
+int a;<br> 
+printf("%d", a);<br> 
+return 0;<br> 
+} 
+</div><br> 
+<br> 
+<h1 id="II">2.Writing ϐirst program in c: 
+</h1> 
+<BR> 
+<div id="p5"> 
+#include <stdio.h> <br> 
+int main(void) <br> 
+{ <br> 
+printf("HELLO WORD"); <br> 
+return 0; <br> 
+} <br> 
+</div> 
+</P> 
+&nbsp;&nbsp;&nbsp; <a href="./PART1.html" id="ram"> QUIZ</a> 
+</p> 
+</div> 
+</body> 
+</html>
+2.decision control instructions
+!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>introduction of c language</title> 
+<STYLE> 
+#main{ 
+background-color: cornsilk; 
+padding: 10px 50px 50px 50px; 
+border-radius: 50px; 
+box-shadow: 10px 15px 5px 
+} 
+#a,#b,#c,#d,#e{ 
+color: royalblue; 
+} 
+#p1,#p2,#p3,#p4,#p5,#p6{ 
+background-color: darkgray; 
+border-radius: 10px; 
+padding: 10px,10px,10px,10px; 
+} 
+#ram{ 
+color: red; 
+font-size: large; 
+} 
+</STYLE> 
+</head> 
+<body> 
+<div id="main"> 
+<h1> C LANGUAGE INTRODUCTION</h1> 
+<P>C is a procedural programming language. It was initially 
+developed by Dennis Ritchie in the year 1972. It was mainly 
+developed as a system programming language to write an operating 
+system. The main features of C language include low-level access 
+to memory, a simple set of keywords, and clean style, these features make C 
+language suitable for system programmings like an operating system or compiler 
+development. 
+Many later languages have borrowed syntax/features directly or indirectly from 
+C language. Like syntax of Java, PHP, JavaScript, and many other languages 
+are mainly based on C language. C++ is nearly a superset of C 
+language (There are few programs that may compile in C, but not in C++).</P> 
+<h3>Beginning with C programming:</h3> 
+&nbsp; 
+<h1 id="I">1.Structure of a C program</h1> 
+<p>After the above discussion, we can formally assess the structure of a C program. By 
+structure, it is meant that any program can be written in this structure only. Writing a C program in any 
+other structure will hence lead to a Compilation Error. 
+The structure of a C program is as follows: 
+<h3>sructure of program C</h3> 
+<P> 
+#include<stdio.h>&nbsp;&nbsp; HEADER<BR> 
+main()&nbsp; &nbsp; MAIN()FUNCTION<BR> 
+{ 
+int a=10;&nbsp;&nbsp; VARIABLE DECLARATION<BR> 
+printf("%d",a);&nbsp;&nbsp; BODY<br> 
+return;&nbsp;&nbsp; RETURN<BR> 
+} 
+<P>The components of the above structure are:</P> 
+<STRONG id="a">1.Header Files Inclusion:</STRONG> The ϐirst and foremost component is 
+the inclusion of the Header ϐiles in a C program. 
+A header ϐile is a ϐile with extension .h which contains C function declarations and macro 
+deϐinitions to be shared between several source ϐiles 
+Some of C Header ϐiles: 
+stddef.h – Deϐines several useful types and macros. 
+stdint.h – Deϐines exact width integer types. 
+stdio.h – Deϐines core input and output functions 
+stdlib.h – Deϐines numeric conversion functions, pseudo-random network generator, memory
+allocation 
+string.h – Deϐines string handling functions 
+math.h – Deϐines common mathematical functions<BR> 
+<STRONG>Syntax to include a header ϐile in C:</STRONG> 
+<BR> 
+<div id="p1">#includ</div><BR><BR> 
+<STRONG id="b">2.Main() function Declaration:</STRONG> The next part of a C program is 
+to declare the main() function. The syntax to declare the 
+main function is:<BR> 
+<STRONG>Syntax to Declare main method:</STRONG><BR> 
+<div id="p6"> 
+int main() <BR> 
+{}<BR> 
+<br> 
+</div> 
+<strong id="c" >3.Variable Declaration:</strong> The next part of any C program is the 
+variable declaration. It refers to the variables that are to 
+be used in the function. Please note that in the C program, 
+no variable can be used without being declared. Also in a 
+C program, the variables are to be declared before any 
+operation in the function. 
+Example:<br> 
+<div id="p2"> 
+int main()<br> 
+{<br> 
+int a;<br> 
+.<br> 
+.<br> 
+</div> 
+<br> 
+<br> 
+<strong id="d" >4.Body:</strong> Body of a function in C program, refers to the operations 
+that are performed in the functions. It can be anything like 
+manipulations, searching, sorting, printing, etc.<br> 
+Example:<br> 
+<div id="p3"> 
+int main()<br> 
+{<br> 
+int a;<br> 
+printf("%d", a);<br> 
+.<br> 
+.<br> 
+</div><br><br> 
+<strong id="e">5.Return Statement:</strong> The last part in any C program is the 
+return statement. The return statement refers to the returning 
+of the values from a function. This return statement and return 
+value depend upon the return type of the function. For example, 
+if the return type is void, then there will be no return statement 
+. In any other case, there will be a return statement and the return 
+value will be of the type of the speciϐied return type.<br> 
+Example:<br> 
+<div id="p4"> 
+int main()<br> 
+{<br> 
+int a;<br> 
+printf("%d", a);<br> 
+return 0;<br> 
+} 
+</div><br> 
+<br> 
+<h1 id="II">2.Writing ϐirst program in c: 
+</h1> 
+<BR> 
+<div id="p5"> 
+#include <stdio.h> <br> 
+int main(void) <br> 
+{ <br> 
+printf("HELLO WORD"); <br> 
+return 0; <br> 
+} <br> 
+</div> 
+</P> 
+&nbsp;&nbsp;&nbsp; <a href="./PART1.html" id="ram"> QUIZ</a> 
+</p> 
+</div> 
+</body> 
+</html>
+3.loop instructions
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title> 
+<style> 
+#main{ 
+background-color: cornsilk; 
+padding: 10px 50px 50px 50px; 
+border-radius: 100px; 
+box-shadow: 10px 15px 5px; 
+} 
+#a1,#a2,#a3,#a4,#a5,#a6,#a7{ 
+background-color: darkgray; 
+border-radius: 10px; 
+padding: 10px,10px,10px,10px; 
+} 
+#p1,#p2,#p3,#p4,#p5,#p6{ 
+background-color: darkgray; 
+border-radius: 10px; 
+padding: 10px,10px,10px,10px; 
+} 
+#ram{ 
+color: red; 
+font-size: large; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="main"> 
+<h1>C Loops: For, While, Do While, Looping Statements with Example</h1> 
+<p> 
+<h2 id="p1">What are Loops?</h2> 
+A Loop executes the sequence of statements many times until the 
+stated condition becomes false. A loop consists of two parts, 
+a body of a loop and a control statement. The control statement 
+is a combination of some conditions that direct the body of the 
+loop to execute until the speciϐied condition becomes false. 
+The purpose of the loop is to repeat the same code a number 
+of times.<br> 
+In this tutorial, you will learn-<br> 
+<ul> 
+<li>Types of Loops in C</li> 
+<li>While Loop in C</li> 
+<li>Do-While loop in C</li> 
+<li>For loop in C</li> 
+<li>Break Statement in C</li> 
+<li>Continue Statement in C</li> 
+<li>Which loop to Select?</li> 
+</ul><br> 
+<h2 id="p2">Types of Loops in C</h2> 
+Depending upon the position of a control 
+statement in a program, looping in C is classiϐied into two types:<br> 
+1. Entry controlled loop<br> 
+2. Exit controlled loop<br> 
+In an <strong>entry controlled loop</strong>, a condition is checked before executing the 
+body of 
+a loop. It is also called as a pre-checking loop.<br> 
+In an <strong>exit controlled loop</strong>, a condition is checked after 
+executing the body of a loop. 
+It is also called as a post-checking loop.<br> 
+<img src="./LC.png"><br> 
+The control conditions must be well deϐined 
+and speciϐied otherwise the loop will execute an inϐinite 
+number of times. The loop that does not stop executing and 
+processes the statements number of times is called as an <strong>inϐinite loop</strong>. 
+An inϐinite loop is also called as an<strong>Endless loop.</strong> 
+" Following are some characteristics of 
+an inϐinite loop:<br> 
+1. No termination condition is speciϐied.<br> 
+2. The speciϐied conditions never meet.<br> 
+The speciϐied condition determines whether to execute 
+the loop body or not. 
+'C' programming language provides us with three types of loop 
+constructs:<br> 
+1. The while loop<br> 
+2. The do-while loop<br> 
+3. The for loop<br> 
+<h2 id="p3">While Loop in C</h2><br> 
+A while loop is the most straightforward looping structure. 
+Syntax of while loop in C programming language is as follows:<br> 
+<div id="a1"> 
+while (condition) {<br> 
+statements;<br> 
+}<br> 
+</div> 
+It is an entry-controlled loop. In while loop, 
+a condition is evaluated before processing a body of 
+the loop. If a condition is true then and only then the body 
+of a loop is executed. After the body of a loop is executed the 
+n control again goes back at the beginning, and the condition is 
+checked if it is true, the same process is executed until the 
+condition becomes false. Once the condition becomes false, 
+the control goes out of the loop.<br> 
+After exiting the loop, the control goes 
+to the statements which are immediately after 
+the loop. The body of a loop can contain more 
+than one statement. If it contains only one statement, 
+then the curly braces are not compulsory. It is a good practice 
+though to use the curly braces even we have a single statement in 
+the body.<br> 
+In while loop, if the condition is not true, then 
+the body of a loop will not be executed, not even once. It is 
+different in do while loop which we will see shortly.<br> 
+Following program illustrates while loop in C programming 
+example:<br> 
+<div id="a2"> 
+#include &lt stdio.h &gt<br> 
+#include &lt conio.h &gt<br> 
+int main()<br> 
+{<br> 
+int num=1; //initializing the variable<br> 
+while(num<=10) //while loop with condition<br> 
+{<br> 
+printf("%d\n",num);<br> 
+num++; &nbsp; //incrementing operation<br> 
+}<br> 
+return 0;<br> 
+}<br> 
+Output:<br> 
+1<br> 
+2<br> 
+3<br> 
+4<br> 
+5<br> 
+6<br> 
+7<br> 
+8<br> 
+9<br> 
+10<br> 
+</div> 
+<h2 id="p4">Do-While loop in C</h2><br> 
+A do...while loop in C is similar to the while loop 
+except that the condition is always executed after the 
+body of a loop. It is also called an exit-controlled loop.<br> 
+Syntax of do...while loop in C programming language is as follows:<br> 
+<div id="a3"> 
+do {<br> 
+statements<br> 
+} while (expression);<br> 
+</div> 
+As we saw in a while loop, the body is executed if and only 
+if the condition is true. In some cases, we have to execute 
+a body of the loop at least once even if the condition is false 
+. This type of operation can be achieved by using a do-while loop.<br> 
+In the do-while 
+loop, the body of a loop is always executed at 
+least once. After the body is executed, then it checks the 
+condition. If the condition is true, then it will again execute the 
+body of a loop otherwise control is transferred out of the loop.<br> 
+Similar to the while loop, once the control 
+goes out of the loop the statements which are 
+immediately after the loop is executed.<br> 
+The critical difference between the while 
+and do-while loop is that in while loop the while is written 
+at the beginning. In do-while loop, the while condition is 
+written at the end and terminates with a semi-colon (;)<br> 
+The following loop program in C illustrates the working of a do-while loop: 
+Below is a do-while loop in C example to print a table of number 2:<br> 
+<div id="a3"> 
+#include&ltstdio.h&gt<br> 
+#include&ltconio.h&gt<br> 
+int main()<br> 
+{<br> 
+int num=1; //initializing the variable<br> 
+do //do-while loop <br> 
+{<br> 
+printf("%d\n",2*num);<br> 
+num++; //incrementing operation<br> 
+}while(num<=10);<br> 
+return 0;<br> 
+}<br> 
+Output:<br> 
+2<br> 
+4<br> 
+6<br> 
+8<br> 
+10<br> 
+12<br> 
+14<br> 
+16<br> 
+18<br> 
+</div> 
+<h1 id="p5">For loop in C</h1><br> 
+A for loop is a more efϐicient loop structure in 'C' programming. 
+The general structure of for loop syntax in C is as follows:<br> 
+for (initial value; condition; incrementation or decrementation ) <br> 
+{<br> 
+statements;<br> 
+}<br> 
+<ul> 
+<li>The initial value of the for loop is performed only once.</li><br> 
+<li>he condition is a Boolean expression that tests and compares the counter to a ϐixed 
+value after each iteration, stopping the for 
+loop when false is returned.</li><br> 
+<li>The incrementation/decrementation 
+increases (or decreases) the counter by a set value.</li><br> 
+</ul> 
+Following program illustrates the for loop in C programming example:<br> 
+<div id="a4"> 
+#include&ltstdio.h&gt<br> 
+int main()<br> 
+{<br> 
+int number<br> 
+for(number=1;number<=10;number++) &nbsp; //for loop to print 1-10 numbers<br> 
+{<br> 
+printf("%d\n",number); &nbsp; //to print the number<br> 
+}<br> 
+return 0;<br> 
+}<br> 
+<h2>Output:</h2><br> 
+1<br> 
+2<br> 
+3<br> 
+4<br> 
+5<br> 
+6<br> 
+7<br> 
+8<br> 
+9<br> 
+10<br> 
+The above p<br> 
+</div> 
+<h1 id="p6">Break Statement in C</h1><br> 
+The break statement is used mainly in in the switch statement. 
+It is also useful for immediately stopping a loop.<br> 
+We consider the following program which introduces a break to exit 
+a while loop:<br> 
+<div id="a5"> 
+#include &ltstdio.h&gt 
+int main() {<br> 
+int num = 5;<br> 
+while (num > 0) {<br> 
+if (num == 3)<br> 
+break;<br> 
+printf("%d\n", num);<br> 
+num--;<br> 
+}}<br> 
+Output:<br> 
+5<br> 
+4<br> 
+</div> 
+<h1>Continue Statement in C</h1> 
+When you want to skip to the next iteration but remain in the loop 
+, you should use the continue statement.<br> 
+For example:<br> 
+<div id="a6"> #include &ltstdio.h&gt<br> 
+int main() {<br> 
+int nb = 7;<br> 
+while (nb > 0) {<br> 
+nb--;<br> 
+if (nb == 5)<br> 
+continue;<br> 
+printf("%d\n", nb);<br> 
+}}<br> 
+Output:<br> 
+6<br> 
+4<br> 
+3<br> 
+2<br> 
+1<br> 
+</div> 
+<a href="PART3.html" id="ram">Quiz</a> 
+</p> 
+</div> 
+</body> 
+</html>
+4.operators
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title> 
+<style> 
+#main{ 
+background-color: cornsilk; 
+padding: 10px 50px 50px 50px; 
+border-radius: 50px; 
+box-shadow: 10px 15px 5px 
+} 
+#ram{ 
+color: red; 
+font-size: large; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="main"> 
+<h1>C - Operators</h1><br><br> 
+<p> 
+An operator is a symbol that tells the compiler to perform 
+speciϐic mathematical or logical functions. C language is 
+rich in built-in operators and provides the following types of 
+operators −<br> 
+<ul> 
+<li>Arithmetic Operators</li><br> 
+<li> Relational Operators</li><br> 
+<li> Logical Operators</li><br> 
+<li> Bitwise Operators</li><br> 
+<li> Assignment Operators</li><br> 
+<li> Misc Operators</li><br> 
+</ul> 
+We will, in this chapter, look into the way each operator works.<br> 
+<h2>Arithmetic Operators</h2><br> 
+The following table shows all the arithmetic 
+operators supported by the C language. Assume variable A 
+holds 10 and variable B holds 20 then −<br> 
+Show Examples<br> 
+<img src="1.png"><br> 
+<h2>Relational Operators</h2><br> 
+The following table shows all the relational 
+operators supported by C. Assume variable A holds 10 
+and variable B holds 20 then −<br> 
+Show Examples<br> 
+<img src="4.png"><br> 
+<h2> Logical Operators</h2> 
+Following table shows all the logical operators supported by 
+C language. Assume variable A holds 1 and variable B holds 0, 
+then −<br> 
+Show Examples<br> 
+<img src="3.png"><br> 
+<h2> Bitwise Operators</h2> 
+Bitwise operator works on bits and perform bit-by-bit 
+operation. The truth tables for &, 
+|, and ^ is as follows −<br> 
+<img src="5.png"><br> 
+The following table lists the bitwise operators 
+supported by C. Assume variable 'A' holds 60 and variable 
+'B' holds 13, then −<br> 
+Show Examples<br> 
+<img src="6.png"><br> 
+<h2>Assignment Operators</h2><br> 
+The following table lists the assignment operators 
+supported by the C language −<br> 
+Show Examples<br> 
+<img src="7.png"><br> 
+<h2>Misc Operators ↦ sizeof & ternary</h2><BR> 
+Besides the operators discussed above, there are a few other 
+important operators including sizeof and ? : supported by the C 
+Language.<BR> 
+<img src="8.png"><br> 
+<h2>Operators Precedence in C</h2><br> 
+Operator precedence determines the grouping of 
+terms in an expression and decides how an expression is 
+evaluated. Certain operators have higher precedence than 
+others; for example, the multiplication operator has a 
+higher precedence than the addition operator.<br> 
+For example, x = 7 + 3 * 2; here, x 
+is assigned 13, not 20 because operator * 
+has a higher precedence than +, so it ϐirst gets 
+multiplied with 3*2 and then adds into 7.<br> 
+Here, operators with the highest precedence 
+appear at the top of the table, those with 
+the lowest appear at the bottom. Within an expression, 
+higher precedence operators will be evaluated ϐirst.<br> 
+Show Examples<br> 
+<a href="PART4.html" id="ram">Quiz</a> 
+</p> 
+</div> 
+</body> 
+</html>
+5.function
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+<title>Document</title> 
+<style> 
+#main{ 
+background-color: cornsilk; 
+padding: 10px 50px 50px 50px; 
+border-radius: 50px; 
+box-shadow: 10px 15px 5px 
+} 
+#a1,#a2{ 
+background-color: darkgray; 
+border-radius: 10px; 
+padding: 10px,10px,10px,10px; 
+} 
+#ram{ 
+color: red; 
+font-size: large; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="main"> 
+<h1>C Functions</h1> <br> 
+<p> 
+In this tutorial, you will be 
+introduced to functions (both user-deϐined and standard library functions) in 
+C programming. Also, you will learn why functions are used in programming.<br> 
+A function is a block of code that performs a speciϐic task.<br> 
+Suppose, you need to create a program to create a circle and color it. 
+You can create two functions to solve this problem:<br> 
+<ul> 
+<li>create a circle function</li> 
+<li>create a color function</li> 
+</ul> 
+Dividing a complex problem 
+into smaller chunks makes our program easy to understand and reuse.<br> 
+<h1>Types of function</h1><br> 
+There are two types of function in C programming:<br> 
+<ul> 
+<li>Standard library functions</li> 
+<li>User-deϐined functions</li> 
+</ul> 
+<h1>Standard library functions</h1><br> 
+The standard library functions are built-in functions in C programming.<br> 
+These functions are deϐined in header ϐiles. For example,<br> 
+<ul> 
+<li>The printf() is a standard library function to send formatted output to the screen (display
+output on the screen). This function is deϐined in the stdio.h header ϐile. 
+Hence, to use the printf()function, we need to include the stdio.h header ϐile using #include 
+&ltstdio.h&gt.</li> 
+<li>The sqrt() function calculates the square root of a number. The function is deϐined in the 
+math.h header ϐile. </li> 
+Visit standard library functions in C programming to learn more.<br> 
+</ul> 
+<h1>User-deϐined function</h1><br> 
+You can also create functions as per your need. 
+Such functions created by the user are known as user-deϐined functions.<br> 
+<h1>How user-deϐined function works?</h1><br> 
+<div id="a1"> 
+#include &ltstdio.h&gt<br> 
+void functionName()<br> 
+{<br> 
+... .. ...<br> 
+... .. ...<br> 
+}<br> 
+int main()<br> 
+{<br> 
+... .. ...<br> 
+... .. ...<br> 
+functionName();<br> 
+... .. ...<br> 
+... .. ...<br> 
+}<br> 
+</div> 
+The execution of a C program begins from the main() function.<br> 
+When the compiler encounters functionName();, 
+control of the program jumps to<br> 
+<div id="a2"> 
+void functionName()<br> 
+</div> 
+And, the compiler starts executing the codes inside functionName().<br> 
+The control of the program jumps back to the main() function once code 
+inside the function deϐinition is executed.<br> 
+<img src="fun.jpg"> 
+Note, function names are identiϐiers and should be unique.<br> 
+This is just an overview of user-deϐined functions. 
+Visit these pages to learn more on:<br> 
+<ul> 
+<li>User-deϐined Function in C programming</li> 
+<li>Types of user-deϐined Functions</li> 
+</ul> 
+<h1>Advantages of user-deϐined function</h1><br> 
+<OL> 
+<LI>The program will be easier to understand, maintain and debug.</LI> 
+<li>Reusable codes that can be used in other programs</li> 
+<li>A large program can be divided into smaller modules. Hence, a large project can be 
+divided among many programmers.</li> 
+</OL> 
+<a href="PART5.html" id="ram">QUIZ</a> 
+</p> 
+</div> 
+</body> 
+</html>
+PART1
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=, initial-scale=1.0"> 
+<title>quiz</title> 
+<style> 
+header 
+{ 
+color:black; 
+font-size:40px; 
+text-align: center; 
+padding: 10px 5px 10px 5px; 
+border-radius: 50px; 
+border: 10px 50px 50px 50px; 
+box-shadow: 10px 20px 5px; 
+background-color:gold; 
+} 
+p 
+{ 
+color: black; 
+font-size: 30px; 
+border-radius:40px; 
+text-align: center; 
+border: 10px 50px 50px 50px; 
+background-color: green; 
+} 
+h3 
+{ 
+color:yellow; 
+font-size: 20px; 
+background-color: royalblue; 
+border: 10px 50px 50px 50px; 
+border-radius:20px; 
+} 
+#container 
+{ 
+background:mediumseagreen; 
+border-radius: 40px; 
+border: 8px 40px 8px 40px; 
+padding: 10px 5px 10px 5px; 
+} 
+#results 
+{ 
+color: royalblue; 
+font-size: 40px; 
+} 
+#sum 
+{ 
+background-color: red; 
+font-size: 18px; 
+width: 100px; 
+} 
+#u1a,#u1b,#u1c,#u1d 
+{ 
+background: red; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="container"> 
+<header >QUIZ IN PROGRAMMING LANGUAGE</header> 
+<hr> 
+<P>TEXT YOUR KNOWLADGE</P> 
+<section> 
+<div id="results"></div> 
+<form name="quizform" onsubmit="return submitAnswer()"> 
+<ol> 
+<li> <h3>who developed c language?</h3><BR></li> 
+<input type="radio" name="q1" value="a" id="q1a">Von-nuemann<br> 
+<input type="radio" name="q1" value="b" id="q1b">chaeles Babbes<br> 
+<input type="radio" name="q1" value="c" id="q1c">AL-Khuwarizmi<br> 
+<input type="radio" name="q1" value="d" id="q1d"> Dennis Ritchie <br> 
+<br> 
+<li> <h3>the "exe" ϐile is produced by?</h3><BR></li> 
+<input type="radio" name="q2" value="a" id="q2a">Loader<br> 
+<input type="radio" name="q2" value="b" id="q2b">Linker<br> 
+<input type="radio" name="q2" value="c" id="q2c">Compiler<br> 
+<input type="radio" name="q2" value="d" id="q2d">Interpreter<br> 
+<br> 
+<li> <h3>which of the fallowing key used to save a ϐile ?</h3><BR></li> 
+<input type="radio" name="q3" value="a" id="q3a">F2<br> 
+<input type="radio" name="q3" value="b" id="q3b">F3<br> 
+<input type="radio" name="q3" value="c" id="q3c">F9<br> 
+<input type="radio" name="q3" value="d" id="q3d">F5<br> 
+<br> 
+<li> <h3>void occupy how many bytes in memory?</h3><BR></li> 
+<input type="radio" name="q4" value="a" id="q4a">2<br> 
+<input type="radio" name="q4" value="b" id="q4b">5<br> 
+<input type="radio" name="q4" value="c" id="q4c">Zero<br> 
+<input type="radio" name="q4" value="d" id="q4d">3<br> 
+<br> 
+<li><h3>main is a ?</h3><BR></li> 
+<input type="radio" name="q5" value="a" id="q5a">comment<br> 
+<input type="radio" name="q5" value="b" id="q5b">Function<br> 
+<input type="radio" name="q5" value="c" id="q5c">Compiler<br> 
+<input type="radio" name="q5" value="d" id="q5d">Expression<br> 
+<br> 
+<li> <h3>What does the fallowing code print on the screan?<br> 
+printf("hello word")<br> 
+</h3><BR></li> 
+<input type="radio" name="q6" value="a" id="q6a">hello<br> 
+<input type="radio" name="q6" value="b" id="q6b">hello word<br> 
+<input type="radio" name="q6" value="c" id="q6c">word<br> 
+<input type="radio" name="q6" value="d" id="q6d">word hello<br> 
+<br> 
+<li><h3>what is the used of clrscr()?</h3><BR></li> 
+<input type="radio" name="q7" value="a" id="q7a">correct output<br> 
+<input type="radio" name="q7" value="b" id="q7b">good output <br> 
+<input type="radio" name="q7" value="c" id="q7c">clear screan<br> 
+<input type="radio" name="q7" value="d" id="q7d">comlete output<br> 
+<br> 
+<li> <h3>what is the symbole of the pre-processor in c? 
+</h3><BR></li> 
+<input type="radio" name="q8" value="a" id="q8a">$<br> 
+<input type="radio" name="q8" value="b" id="q8b">@<br> 
+<input type="radio" name="q8" value="c" id="q8c">#<br> 
+<input type="radio" name="q8" value="d" id="q8d">&<br> 
+<br> 
+<li> <h3>what is the full form of the stdio header ϐile? 
+</h3><BR></li> 
+<input type="radio" name="q9" value="a" id="q9a">standered output input<br> 
+<input type="radio" name="q9" value="b" id="q9b">standered indirect output<br> 
+<input type="radio" name="q9" value="c" id="q9c">standered input output<br> 
+<input type="radio" name="q9" value="d" id="q9d">standered input outcum<br> 
+<br> 
+<li> <h3>what is the fullform of conio header ϐile ? 
+</h3><BR></li> 
+<input type="radio" name="q10" value="a" id="q10a">connect input output <br> 
+<input type="radio" name="q10" value="b" id="q10b">console input output<br> 
+<input type="radio" name="q10" value="c" id="q10c">consult input output<br> 
+<input type="radio" name="q10" value="d" id="q10d">complete input output <br> 
+<br> 
+</ol> 
+<input type="submit" value ="submit" id="sum"> 
+</form> 
+</section> 
+</div> 
+<script > 
+function submitAnswer() 
+{ 
+var total =10; 
+var score=0; 
+var q1=document.forms['quizform']['q1'].value; 
+var q2=document.forms['quizform']['q2'].value; 
+var q3=document.forms['quizform']['q3'].value; 
+var q4=document.forms['quizform']['q4'].value; 
+var q5=document.forms['quizform']['q5'].value; 
+var q6=document.forms['quizform']['q6'].value; 
+var q7=document.forms['quizform']['q7'].value; 
+var q8=document.forms['quizform']['q8'].value; 
+var q9=document.forms['quizform']['q9'].value; 
+var q10=document.forms['quizform']['q10'].value; 
+var ans=["d","b","c","c","b","b","c","c","c","c"]; 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==null||eval('q'+i)=="") 
+{ 
+alert("you missed question:"+i); 
+return false; 
+} 
+} 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==ans[i-1]) 
+{ 
+score++; 
+} 
+} 
+document.write("YOUR SCORE IS:"+score); 
+} 
+</script> 
+</body> 
+</html>
+PATR2
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=, initial-scale=1.0"> 
+<title>quiz</title> 
+<style> 
+header 
+{ 
+color:black; 
+font-size:40px; 
+text-align: center; 
+padding: 10px 5px 10px 5px; 
+border-radius: 50px; 
+border: 10px 50px 50px 50px; 
+box-shadow: 10px 20px 5px; 
+background-color:gold; 
+} 
+p 
+{ 
+color: black; 
+font-size: 30px; 
+border-radius:40px; 
+text-align: center; 
+border: 10px 50px 50px 50px; 
+background-color: green; 
+} 
+h3 
+{ 
+color:yellow; 
+font-size: 20px; 
+background-color: royalblue; 
+border: 10px 50px 50px 50px; 
+border-radius:20px; 
+} 
+#container 
+{ 
+background:mediumseagreen; 
+border-radius: 40px; 
+border: 8px 40px 8px 40px; 
+padding: 10px 5px 10px 5px; 
+} 
+#results 
+{ 
+color: royalblue; 
+font-size: 40px; 
+} 
+#sum 
+{ 
+background-color: red; 
+font-size: 18px; 
+width: 100px; 
+} 
+#u1a,#u1b,#u1c,#u1d 
+{ 
+background: red; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="container"> 
+<header >QUIZ IN PROGRAMMING LANGUAGE</header> 
+<hr> 
+<P>TEXT YOUR KNOWLADGE</P> 
+<section> 
+<div id="results"></div> 
+<form name="quizform" onsubmit="return submitAnswer()"> 
+<ol> 
+<li> <h3>in if statement, true is represented ?</h3><BR></li> 
+<input type="radio" name="q1" value="a" id="q1a">3<br> 
+<input type="radio" name="q1" value="b" id="q1b">0<br> 
+<input type="radio" name="q1" value="c" id="q1c">2<br> 
+<input type="radio" name="q1" value="d" id="q1d">1<br> 
+<br> 
+<li> <h3>which programming structure execute program statements in order 
+?</h3><BR></li> 
+<input type="radio" name="q2" value="a" id="q2a">Relation<br> 
+<input type="radio" name="q2" value="b" id="q2b">Sequence<br> 
+<input type="radio" name="q2" value="c" id="q2c">Repetition<br> 
+<input type="radio" name="q2" value="d" id="q2d">Selection<br> 
+<br> 
+<li> <h3>in if statement ,false is represnted?</h3><BR></li> 
+<input type="radio" name="q3" value="a" id="q3a">3 <br> 
+<input type="radio" name="q3" value="b" id="q3b">1 <br> 
+<input type="radio" name="q3" value="c" id="q3c">0<br> 
+<input type="radio" name="q3" value="d" id="q3d">2 <br> 
+<br> 
+<li> <h3>which of the fallowing is used the twio way decision</h3><BR></li> 
+<input type="radio" name="q4" value="a" id="q4a">ef<br> 
+<input type="radio" name="q4" value="b" id="q4b">else <br> 
+<input type="radio" name="q4" value="c" id="q4c">else-if<br> 
+<input type="radio" name="q4" value="d" id="q4d">switch<br> 
+<br> 
+<li><h3>the three programming sructures are ?</h3><BR></li> 
+<input type="radio" name="q5" value="a" id="q5a">process,decision,altermation<br> 
+<input type="radio" name="q5" value="b" id="q5b">Sequance,decision and repetition<br> 
+<input type="radio" name="q5" value="c" id="q5c">coparison,decision and repetition<br> 
+<input type="radio" name="q5" value="d" id="q5d">relation,decision and repetition<br> 
+<br> 
+<li> <h3>when a relation expression is false , it has the value ? 
+</h3><BR></li> 
+<input type="radio" name="q6" value="a" id="q6a">less than zero<br> 
+<input type="radio" name="q6" value="b" id="q6b">zero<br> 
+<input type="radio" name="q6" value="c" id="q6c">one<br> 
+<input type="radio" name="q6" value="d" id="q6d">three<br> 
+<br> 
+<li><h3>what is use of the switch statments?</h3><BR></li> 
+<input type="radio" name="q7" value="a" id="q7a">two condition<br> 
+<input type="radio" name="q7" value="b" id="q7b">one condition<br> 
+<input type="radio" name="q7" value="c" id="q7c">many multipe condision<br> 
+<input type="radio" name="q7" value="d" id="q7d">three condition<br> 
+<br> 
+<li> <h3>who is the wrong decision statments? 
+</h3><BR></li> 
+<input type="radio" name="q8" value="a" id="q8a">if<br> 
+<input type="radio" name="q8" value="b" id="q8b">else <br> 
+<input type="radio" name="q8" value="c" id="q8c">if else<br> 
+<input type="radio" name="q8" value="d" id="q8d">else if<br> 
+<br> 
+<li> <h3>switch statment is a? 
+</h3><BR></li> 
+<input type="radio" name="q9" value="a" id="q9a">relational<br> 
+<input type="radio" name="q9" value="b" id="q9b">sequantial<br> 
+<input type="radio" name="q9" value="c" id="q9c">condition<br> 
+<input type="radio" name="q9" value="d" id="q9d">comparision<br> 
+<br> 
+<li> <h3>what is the output of the program?<br> 
+if(5>4)<br> 
+{<br> 
+printf("hello");<br> 
+}<br> 
+else<br> 
+printf("word");<br> 
+</h3><BR></li> 
+<input type="radio" name="q10" value="a" id="q10a">word<br> 
+<input type="radio" name="q10" value="b" id="q10b">hello word<br> 
+<input type="radio" name="q10" value="c" id="q10c">hello<br> 
+<input type="radio" name="q10" value="d" id="q10d">none<br> 
+<br> 
+</ol> 
+<input type="submit" value ="submit" id="sum"> 
+</form> 
+</section> 
+</div> 
+<script > 
+function submitAnswer() 
+{ 
+var total =10; 
+var score=0; 
+var q1=document.forms['quizform']['q1'].value; 
+var q2=document.forms['quizform']['q2'].value; 
+var q3=document.forms['quizform']['q3'].value; 
+var q4=document.forms['quizform']['q4'].value; 
+var q5=document.forms['quizform']['q5'].value; 
+var q6=document.forms['quizform']['q6'].value; 
+var q7=document.forms['quizform']['q7'].value; 
+var q8=document.forms['quizform']['q8'].value; 
+var q9=document.forms['quizform']['q9'].value; 
+var q10=document.forms['quizform']['q10'].value; 
+var ans=["d","b","c","c","b","b","c","c","c","c"]; 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==null||eval('q'+i)=="") 
+{ 
+alert("you missed question:"+i); 
+return false; 
+} 
+} 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==ans[i-1]) 
+{ 
+score++; 
+} 
+} 
+document.write("YOUR SCORE IS:"+score); 
+} 
+</script> 
+</body> 
+</html>
+PART3
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=, initial-scale=1.0"> 
+<title>quiz</title> 
+<style> 
+header 
+{ 
+color:black; 
+font-size:40px; 
+text-align: center; 
+padding: 10px 5px 10px 5px; 
+border-radius: 50px; 
+border: 10px 50px 50px 50px; 
+box-shadow: 10px 20px 5px; 
+background-color:gold; 
+} 
+p 
+{ 
+color: black; 
+font-size: 30px; 
+border-radius:40px; 
+text-align: center; 
+border: 10px 50px 50px 50px; 
+background-color: green; 
+} 
+h3 
+{ 
+color:yellow; 
+font-size: 20px; 
+background-color: royalblue; 
+border: 10px 50px 50px 50px; 
+border-radius:20px; 
+} 
+#container 
+{ 
+background:mediumseagreen; 
+border-radius: 40px; 
+border: 8px 40px 8px 40px; 
+padding: 10px 5px 10px 5px; 
+} 
+#results 
+{ 
+color: royalblue; 
+font-size: 40px; 
+} 
+#sum 
+{ 
+background-color: red; 
+font-size: 18px; 
+width: 100px; 
+} 
+#u1a,#u1b,#u1c,#u1d 
+{ 
+background: red; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="container"> 
+<header >QUIZ IN PROGRAMMING LANGUAGE</header> 
+<hr> 
+<P>TEXT YOUR KNOWLADGE</P> 
+<section> 
+<div id="results"></div> 
+<form name="quizform" onsubmit="return submitAnswer()"> 
+<ol> 
+<li> <h3>which of the fallowing is a valid variable?</h3><BR></li> 
+<input type="radio" name="q1" value="a" id="q1a">for<br> 
+<input type="radio" name="q1" value="b" id="q1b">while<br> 
+<input type="radio" name="q1" value="c" id="q1c">if<br> 
+<input type="radio" name="q1" value="d" id="q1d">answer<br> 
+<br> 
+<li> <h3>what is main()?</h3><BR></li> 
+<input type="radio" name="q2" value="a" id="q2a">user deϐine function <br> 
+<input type="radio" name="q2" value="b" id="q2b">pre-deϐine function<br> 
+<input type="radio" name="q2" value="c" id="q2c">it is program<br> 
+<input type="radio" name="q2" value="d" id="q2d">it is variable<br> 
+<br> 
+<li> <h3>what is size of the ϐlaot in bytes?</h3><BR></li> 
+<input type="radio" name="q3" value="a" id="q3a">3 bytes<br> 
+<input type="radio" name="q3" value="b" id="q3b">1 bytes<br> 
+<input type="radio" name="q3" value="c" id="q3c">4 bytes<br> 
+<input type="radio" name="q3" value="d" id="q3d">2 bytes<br> 
+<br> 
+<li> <h3>which of the fallowing is a correct logical operator?</h3><BR></li> 
+<input type="radio" name="q4" value="a" id="q4a">?;<br> 
+<input type="radio" name="q4" value="b" id="q4b">*<br> 
+<input type="radio" name="q4" value="c" id="q4c">&&<br> 
+<input type="radio" name="q4" value="d" id="q4d">%<br> 
+<br> 
+<li><h3>what is the value of this expresion :5%3/8*3+4 ?</h3><BR></li> 
+<input type="radio" name="q5" value="a" id="q5a">0<br> 
+<input type="radio" name="q5" value="b" id="q5b">4<br> 
+<input type="radio" name="q5" value="c" id="q5c">3<br> 
+<input type="radio" name="q5" value="d" id="q5d">2<br> 
+<br> 
+<li> <h3>what is the output of this question?<br> 
+int main()<br> 
+{ 
+<br> 
+int a=35;ϐloat b=3.24;<br> 
+printf("%d%f%d",a,b+1.5,235);<br> 
+<br> 
+} 
+</h3><BR></li> 
+<input type="radio" name="q6" value="a" id="q6a">4.74,35,235<br> 
+<input type="radio" name="q6" value="b" id="q6b">35,4.74,235<br> 
+<input type="radio" name="q6" value="c" id="q6c">234,35,4.74<br> 
+<input type="radio" name="q6" value="d" id="q6d">234,4.74,35<br> 
+<br> 
+<li><h3>what is symble of turnary operator?</h3><BR></li> 
+<input type="radio" name="q7" value="a" id="q7a">%<br> 
+<input type="radio" name="q7" value="b" id="q7b">&<br> 
+<input type="radio" name="q7" value="c" id="q7c">?:<br> 
+<input type="radio" name="q7" value="d" id="q7d">*<br> 
+<br> 
+<li> <h3>the value of this expresion? 
+8%2+5*2; 
+</h3><BR></li> 
+<input type="radio" name="q8" value="a" id="q8a">9<br> 
+<input type="radio" name="q8" value="b" id="q8b">14<br> 
+<input type="radio" name="q8" value="c" id="q8c">10<br> 
+<input type="radio" name="q8" value="d" id="q8d">11<br> 
+<br> 
+<li> <h3>what is the full form of the stdio header ϐile? 
+</h3><BR></li> 
+<input type="radio" name="q9" value="a" id="q9a">standered output input<br> 
+<input type="radio" name="q9" value="b" id="q9b">standered indirect output<br> 
+<input type="radio" name="q9" value="c" id="q9c">standered input output<br> 
+<input type="radio" name="q9" value="d" id="q9d">standered input outcum<br> 
+<br> 
+<li> <h3>what is the solution of the expression : 8&4|2? 
+</h3><BR></li> 
+<input type="radio" name="q10" value="a" id="q10a">4<br> 
+<input type="radio" name="q10" value="b" id="q10b">9<br> 
+<input type="radio" name="q10" value="c" id="q10c">2<br> 
+<input type="radio" name="q10" value="d" id="q10d">0<br> 
+<br> 
+</ol> 
+<input type="submit" value ="submit" id="sum"> 
+</form> 
+</section> 
+</div> 
+<script > 
+function submitAnswer() 
+{ 
+var total =10; 
+var score=0; 
+var q1=document.forms['quizform']['q1'].value; 
+var q2=document.forms['quizform']['q2'].value; 
+var q3=document.forms['quizform']['q3'].value; 
+var q4=document.forms['quizform']['q4'].value; 
+var q5=document.forms['quizform']['q5'].value; 
+var q6=document.forms['quizform']['q6'].value; 
+var q7=document.forms['quizform']['q7'].value; 
+var q8=document.forms['quizform']['q8'].value; 
+var q9=document.forms['quizform']['q9'].value; 
+var q10=document.forms['quizform']['q10'].value; 
+var ans=["d","b","c","c","b","b","c","c","c","c"]; 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==null||eval('q'+i)=="") 
+{ 
+alert("you missed question:"+i); 
+return false; 
+} 
+} 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==ans[i-1]) 
+{ 
+score++; 
+} 
+} 
+document.write("YOUR SCORE IS:"+score); 
+} 
+</script> 
+</body> 
+</html>
+PART4
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=, initial-scale=1.0"> 
+<title>quiz</title> 
+<style> 
+header 
+{ 
+color:black; 
+font-size:40px; 
+text-align: center; 
+padding: 10px 5px 10px 5px; 
+border-radius: 50px; 
+border: 10px 50px 50px 50px; 
+box-shadow: 10px 20px 5px; 
+background-color:gold; 
+} 
+p 
+{ 
+color: black; 
+font-size: 30px; 
+border-radius:40px; 
+text-align: center; 
+border: 10px 50px 50px 50px; 
+background-color: green; 
+} 
+h3 
+{ 
+color:yellow; 
+font-size: 20px; 
+background-color: royalblue; 
+border: 10px 50px 50px 50px; 
+border-radius:20px; 
+} 
+#container 
+{ 
+background:mediumseagreen; 
+border-radius: 40px; 
+border: 8px 40px 8px 40px; 
+padding: 10px 5px 10px 5px; 
+} 
+#results 
+{ 
+color: royalblue; 
+font-size: 40px; 
+} 
+#sum 
+{ 
+background-color: red; 
+font-size: 18px; 
+width: 100px; 
+} 
+#u1a,#u1b,#u1c,#u1d 
+{ 
+background: red; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="container"> 
+<header >QUIZ IN PROGRAMMING LANGUAGE</header> 
+<hr> 
+<P>TEXT YOUR KNOWLADGE</P> 
+<section> 
+<div id="results"></div> 
+<form name="quizform" onsubmit="return submitAnswer()"> 
+<ol> 
+<li> <h3>what is the associativity of the arthimatic operator?</h3><BR></li> 
+<input type="radio" name="q1" value="a" id="q1a">right-left<br> 
+<input type="radio" name="q1" value="b" id="q1b">left<br> 
+<input type="radio" name="q1" value="c" id="q1c">right<br> 
+<input type="radio" name="q1" value="d" id="q1d">left-right<br> 
+<br> 
+<li> <h3>what is the symbole of logical OR?</h3><BR></li> 
+<input type="radio" name="q2" value="a" id="q2a">&&<br> 
+<input type="radio" name="q2" value="b" id="q2b">||<br> 
+<input type="radio" name="q2" value="c" id="q2c">|<br> 
+<input type="radio" name="q2" value="d" id="q2d">&<br> 
+<br> 
+<li> <h3>what is size of the ϐlaot in bytes?</h3><BR></li> 
+<input type="radio" name="q3" value="a" id="q3a">3 bytes<br> 
+<input type="radio" name="q3" value="b" id="q3b">1 bytes<br> 
+<input type="radio" name="q3" value="c" id="q3c">4 bytes<br> 
+<input type="radio" name="q3" value="d" id="q3d">2 bytes<br> 
+<br> 
+<li> <h3>which of the fallowing is a correct logical operator?</h3><BR></li> 
+<input type="radio" name="q4" value="a" id="q4a">?;<br> 
+<input type="radio" name="q4" value="b" id="q4b">*<br> 
+<input type="radio" name="q4" value="c" id="q4c">&&<br> 
+<input type="radio" name="q4" value="d" id="q4d">%<br> 
+<br> 
+<li><h3>what is the value of this expresion :5%3/8*3+4 ?</h3><BR></li> 
+<input type="radio" name="q5" value="a" id="q5a">0<br> 
+<input type="radio" name="q5" value="b" id="q5b">4<br> 
+<input type="radio" name="q5" value="c" id="q5c">3<br> 
+<input type="radio" name="q5" value="d" id="q5d">2<br> 
+<br> 
+<li> <h3>what is the output of this question?<br> 
+int main()<br> 
+{ 
+<br> 
+int a=35;ϐloat b=3.24;<br> 
+printf("%d%f%d",a,b+1.5,235);<br> 
+<br> 
+} 
+</h3><BR></li> 
+<input type="radio" name="q6" value="a" id="q6a">4.74,35,235<br> 
+<input type="radio" name="q6" value="b" id="q6b">35,4.74,235<br> 
+<input type="radio" name="q6" value="c" id="q6c">234,35,4.74<br> 
+<input type="radio" name="q6" value="d" id="q6d">234,4.74,35<br> 
+<br> 
+<li><h3>what is symble of turnary operator?</h3><BR></li> 
+<input type="radio" name="q7" value="a" id="q7a">%<br> 
+<input type="radio" name="q7" value="b" id="q7b">&<br> 
+<input type="radio" name="q7" value="c" id="q7c">?:<br> 
+<input type="radio" name="q7" value="d" id="q7d">*<br> 
+<br> 
+<li> <h3>the value of this expresion? 
+8%2+5*2; 
+</h3><BR></li> 
+<input type="radio" name="q8" value="a" id="q8a">9<br> 
+<input type="radio" name="q8" value="b" id="q8b">14<br> 
+<input type="radio" name="q8" value="c" id="q8c">10<br> 
+<input type="radio" name="q8" value="d" id="q8d">11<br> 
+<br> 
+<li> <h3>what is the symbole of assignment operator? 
+</h3><BR></li> 
+<input type="radio" name="q9" value="a" id="q9a">>=<br> 
+<input type="radio" name="q9" value="b" id="q9b">==<br> 
+<input type="radio" name="q9" value="c" id="q9c">=<br> 
+<input type="radio" name="q9" value="d" id="q9d">&&<br> 
+<br> 
+<li> <h3>what is the solution of the expression : 8&4|2? 
+</h3><BR></li> 
+<input type="radio" name="q10" value="a" id="q10a">4<br> 
+<input type="radio" name="q10" value="b" id="q10b">9<br> 
+<input type="radio" name="q10" value="c" id="q10c">2<br> 
+<input type="radio" name="q10" value="d" id="q10d">0<br> 
+<br> 
+</ol> 
+<input type="submit" value ="submit" id="sum"> 
+</form> 
+</section> 
+</div> 
+<script > 
+function submitAnswer() 
+{ 
+var total =10; 
+var score=0; 
+var q1=document.forms['quizform']['q1'].value; 
+var q2=document.forms['quizform']['q2'].value; 
+var q3=document.forms['quizform']['q3'].value; 
+var q4=document.forms['quizform']['q4'].value; 
+var q5=document.forms['quizform']['q5'].value; 
+var q6=document.forms['quizform']['q6'].value; 
+var q7=document.forms['quizform']['q7'].value; 
+var q8=document.forms['quizform']['q8'].value; 
+var q9=document.forms['quizform']['q9'].value; 
+var q10=document.forms['quizform']['q10'].value; 
+var ans=["d","b","c","c","b","b","c","c","c","c"]; 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==null||eval('q'+i)=="") 
+{ 
+alert("you missed question:"+i); 
+return false; 
+} 
+} 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==ans[i-1]) 
+{ 
+score++; 
+} 
+} 
+document.write("YOUR SCORE IS:"+score); 
+} 
+</script> 
+</body> 
+</html>
+PART5
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+<meta charset="UTF-8"> 
+<meta name="viewport" content="width=, initial-scale=1.0"> 
+<title>quiz</title> 
+<style> 
+header 
+{ 
+color:black; 
+font-size:40px; 
+text-align: center; 
+padding: 10px 5px 10px 5px; 
+border-radius: 50px; 
+border: 10px 50px 50px 50px; 
+box-shadow: 10px 20px 5px; 
+background-color:gold; 
+} 
+p 
+{ 
+color: black; 
+font-size: 30px; 
+border-radius:40px; 
+text-align: center; 
+border: 10px 50px 50px 50px; 
+background-color: green; 
+} 
+h3 
+{ 
+color:yellow; 
+font-size: 20px; 
+background-color: royalblue; 
+border: 10px 50px 50px 50px; 
+border-radius:20px; 
+} 
+#container 
+{ 
+background:mediumseagreen; 
+border-radius: 40px; 
+border: 8px 40px 8px 40px; 
+padding: 10px 5px 10px 5px; 
+} 
+#results 
+{ 
+color: royalblue; 
+font-size: 40px; 
+} 
+#sum 
+{ 
+background-color: red; 
+font-size: 18px; 
+width: 100px; 
+} 
+#u1a,#u1b,#u1c,#u1d 
+{ 
+background: red; 
+} 
+</style> 
+</head> 
+<body> 
+<div id="container"> 
+<header >QUIZ IN PROGRAMMING LANGUAGE</header> 
+<hr> 
+<P>TEXT YOUR KNOWLADGE</P> 
+<section> 
+<div id="results"></div> 
+<form name="quizform" onsubmit="return submitAnswer()"> 
+<ol> 
+<li> <h3>functions are?</h3><BR></li> 
+<input type="radio" name="q1" value="a" id="q1a">four types<br> 
+<input type="radio" name="q1" value="b" id="q1b">one types<br> 
+<input type="radio" name="q1" value="c" id="q1c">three types<br> 
+<input type="radio" name="q1" value="d" id="q1d">two types<br> 
+<br> 
+<li> <h3>what is main()?</h3><BR></li> 
+<input type="radio" name="q2" value="a" id="q2a">user deϐine function <br> 
+<input type="radio" name="q2" value="b" id="q2b">pre-deϐine function<br> 
+<input type="radio" name="q2" value="c" id="q2c">it is program<br> 
+<input type="radio" name="q2" value="d" id="q2d">it is variable<br> 
+<br> 
+<li> <h3>printf and scanf are ?</h3><BR></li> 
+<input type="radio" name="q3" value="a" id="q3a">declared function<br> 
+<input type="radio" name="q3" value="b" id="q3b">user-deϐine function<br> 
+<input type="radio" name="q3" value="c" id="q3c">pre-deϐine function<br> 
+<input type="radio" name="q3" value="d" id="q3d">undeclared function<br> 
+<br> 
+<li> <h3>which of the fallowing is a correct logical operator?</h3><BR></li> 
+<input type="radio" name="q4" value="a" id="q4a">?;<br> 
+<input type="radio" name="q4" value="b" id="q4b">*<br> 
+<input type="radio" name="q4" value="c" id="q4c">&&<br> 
+<input type="radio" name="q4" value="d" id="q4d">%<br> 
+<br> 
+<li><h3>what is the value of this expresion :5%3/8*3+4 ?</h3><BR></li> 
+<input type="radio" name="q5" value="a" id="q5a">0<br> 
+<input type="radio" name="q5" value="b" id="q5b">4<br> 
+<input type="radio" name="q5" value="c" id="q5c">3<br> 
+<input type="radio" name="q5" value="d" id="q5d">2<br> 
+<br> 
+<li> <h3>what is the output of this question?<br> 
+int main()<br> 
+{ 
+<br> 
+int a=35;ϐloat b=3.24;<br> 
+printf("%d%f%d",a,b+1.5,235);<br> 
+<br> 
+} 
+</h3><BR></li> 
+<input type="radio" name="q6" value="a" id="q6a">4.74,35,235<br> 
+<input type="radio" name="q6" value="b" id="q6b">35,4.74,235<br> 
+<input type="radio" name="q6" value="c" id="q6c">234,35,4.74<br> 
+<input type="radio" name="q6" value="d" id="q6d">234,4.74,35<br> 
+<br> 
+<li><h3>what is symble of turnary operator?</h3><BR></li> 
+<input type="radio" name="q7" value="a" id="q7a">%<br> 
+<input type="radio" name="q7" value="b" id="q7b">&<br> 
+<input type="radio" name="q7" value="c" id="q7c">?:<br> 
+<input type="radio" name="q7" value="d" id="q7d">*<br> 
+<br> 
+<li> <h3>the value of this expresion? 
+8%2+5*2; 
+</h3><BR></li> 
+<input type="radio" name="q8" value="a" id="q8a">9<br> 
+<input type="radio" name="q8" value="b" id="q8b">14<br> 
+<input type="radio" name="q8" value="c" id="q8c">10<br> 
+<input type="radio" name="q8" value="d" id="q8d">11<br> 
+<br> 
+<li> <h3>what is the full form of the stdio header ϐile? 
+</h3><BR></li> 
+<input type="radio" name="q9" value="a" id="q9a">standered output input<br> 
+<input type="radio" name="q9" value="b" id="q9b">standered indirect output<br> 
+<input type="radio" name="q9" value="c" id="q9c">standered input output<br> 
+<input type="radio" name="q9" value="d" id="q9d">standered input outcum<br> 
+<br> 
+<li> <h3>what is the solution of the expression : 8&4|2? 
+</h3><BR></li> 
+<input type="radio" name="q10" value="a" id="q10a">4<br> 
+<input type="radio" name="q10" value="b" id="q10b">9<br> 
+<input type="radio" name="q10" value="c" id="q10c">2<br> 
+<input type="radio" name="q10" value="d" id="q10d">0<br> 
+<br> 
+</ol> 
+<input type="submit" value ="submit" id="sum"> 
+</form> 
+</section> 
+</div> 
+<script > 
+function submitAnswer() 
+{ 
+var total =10; 
+var score=0; 
+var q1=document.forms['quizform']['q1'].value; 
+var q2=document.forms['quizform']['q2'].value; 
+var q3=document.forms['quizform']['q3'].value; 
+var q4=document.forms['quizform']['q4'].value; 
+var q5=document.forms['quizform']['q5'].value; 
+var q6=document.forms['quizform']['q6'].value; 
+var q7=document.forms['quizform']['q7'].value; 
+var q8=document.forms['quizform']['q8'].value; 
+var q9=document.forms['quizform']['q9'].value; 
+var q10=document.forms['quizform']['q10'].value; 
+var ans=["d","b","c","c","b","b","c","c","c","c"]; 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==null||eval('q'+i)=="") 
+{ 
+alert("you missed question:"+i); 
+return false; 
+} 
+} 
+for(var i=1;i<=total;i++) 
+{ 
+if(eval('q'+i)==ans[i-1]) 
+{ 
+score++; 
+} 
+} 
+document.write("YOUR SCORE IS:"+score); 
+} 
+</script> 
+</body> 
+</html>
